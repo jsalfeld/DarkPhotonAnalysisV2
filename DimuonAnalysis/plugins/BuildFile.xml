@@ -1,0 +1,19 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/ServiceRegistry"/>
+<use name="FWCore/Utilities"/>
+
+<use name="DataFormats/Scouting"/>
+<use name="DataFormats/Math"/>
+<use name="SimDataFormats/PileupSummaryInfo"/>
+<use name="SimDataFormats/GeneratorProducts"/>
+
+<use name="CondFormats/DataRecord"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="HLTrigger/HLTcore"/>
+<use name="DataFormats/HLTReco"/>
+<use name="HLTrigger/Muon"/>
+<use name="DataFormats/VertexReco"/>
+<use name="L1Trigger/L1TGlobal"/>
+<flags EDM_PLUGIN="1"/>

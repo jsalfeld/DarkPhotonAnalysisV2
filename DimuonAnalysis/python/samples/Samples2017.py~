@@ -1,0 +1,7 @@
+samples = {}
+
+from DarkPhotonAnalysisV2.DimuonAnalysis2017.samples.SC2017 import AddSCSamples
+from DarkPhotonAnalysisV2.DimuonAnalysis2017.samples.DP import AddDPSamples
+
+AddSCSamples(samples)
+AddDPSamples(samples)

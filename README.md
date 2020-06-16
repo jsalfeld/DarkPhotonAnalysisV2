@@ -10,4 +10,4 @@ git clone https://github.com/jsalfeld/DarkPhotonAnalysisV2
 cd DarkPhotonAnalysisV2/DimuonAnalysis/test/
 cmsRun scout2017_cfg.py
 ```
-There is a macro to do selection with, in ```DarkPhotonAnalysisV2/DimuonAnalysis/test/```. There is a setup ```DarkPhotonAnalysisV2/DimuonAnalysis/crab/``` in to submit samples defined in ```DarkPhotonAnalysisV2/DimuonAnalysis/python/samples``` 
+There is a macro to do selection with, in ```DarkPhotonAnalysisV2/DimuonAnalysis/macros/```. There is a setup ```DarkPhotonAnalysisV2/DimuonAnalysis/crab/``` in to submit samples defined in ```DarkPhotonAnalysisV2/DimuonAnalysis/python/samples``` 

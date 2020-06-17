@@ -1,6 +1,6 @@
 import os
 
-from DarkPhotonAnalysis.DimuonAnalysis2017.samples.Samples2017 import samples
+from DarkPhotonAnalysisV2.DimuonAnalysis.samples.Samples2017 import samples
 
 keys  = samples.viewkeys()    
 keylist = list(keys)

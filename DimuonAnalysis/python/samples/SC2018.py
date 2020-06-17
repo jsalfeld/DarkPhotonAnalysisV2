@@ -17,7 +17,7 @@ def AddSCSamples(samples):
         100
     ]
 
-samples['ScoutingRunB']  = [
+    samples['ScoutingRunB']  = [
         '/ScoutingCaloMuon/Run2018B-v1/RAW',
         [],
         'LumiBased',
@@ -25,7 +25,7 @@ samples['ScoutingRunB']  = [
         100
     ]
 
-samples['ScoutingRunC']  = [
+    samples['ScoutingRunC']  = [
         '/ScoutingCaloMuon/Run2018C-v1/RAW',
         [],
         'LumiBased',
@@ -34,7 +34,7 @@ samples['ScoutingRunC']  = [
     ]
 
 
-samples['ScoutingRunD']  = [
+    samples['ScoutingRunD']  = [
         '/ScoutingCaloMuon/Run2018D-v1/RAW',
         [],
         'LumiBased',

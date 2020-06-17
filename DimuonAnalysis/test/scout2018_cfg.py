@@ -85,7 +85,7 @@ process.options = cms.untracked.PSet(
 )
 
 # How many events to process
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(50000) )
 
 # Input EDM files
 process.source = cms.Source("PoolSource",
@@ -105,7 +105,6 @@ process.load('Configuration.StandardSequences.MagneticField_cff')
 process.load("EventFilter.L1TRawToDigi.gtStage2Digis_cfi")
 process.gtStage2Digis.InputLabel = cms.InputTag( "hltFEDSelectorL1" )
 process.load('PhysicsTools.PatAlgos.producersLayer1.patCandidates_cff')
-
 
 # Load the global tag
 from Configuration.AlCa.GlobalTag import GlobalTag

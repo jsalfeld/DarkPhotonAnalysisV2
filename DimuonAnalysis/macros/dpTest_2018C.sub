@@ -1,0 +1,19 @@
+executable = /afs/cern.ch/work/j/jsalfeld/Princeton/DarkStuff/newPackage/CMSSW_10_1_6/src/DarkPhotonAnalysisV2/DimuonAnalysis/macros/thejob_2018C.sh
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = ""
+transfer_output_files = ""
+arguments = "scout_$(ProcId).root"
+universe = vanilla
+queue 263
++JobFlavour = "espresso"
+
+
+
+# or
+# queue INPUT in (
+# file1
+# file2
+# file3
+# ..
+# )

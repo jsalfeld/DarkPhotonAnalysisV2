@@ -206,8 +206,7 @@ THE LOW MASS TRIGGER TO MEASURE FAKE: ID 18 - 20 [ONLY IN FROM RUN 305405]
 	//
         mass   = mm.M();
         nvtx = *nverts;
-        
-	
+        	
         bool passPVconstraintAbs = false;
 	bool passPVconstraintSig = false;
 	float BSx = 0.092;
@@ -223,12 +222,9 @@ THE LOW MASS TRIGGER TO MEASURE FAKE: ID 18 - 20 [ONLY IN FROM RUN 305405]
 	if(m1ch*m2ch<0. && passPVconstraintSig && m1pt>slidePt1 && m2pt>slidePt2 && maxEta<1.9) dimuonMass->Fill(mass);
 	//if(m1ch*m2ch<0. && passPVconstraintSig && m1pt>slidePt1 && m2pt>slidePt2 && maxEta<1.9 && mass>2.7 && mass<3.4) dimuonMassJPsi->Fill(mass);
 
-
 	/*float ma=0.2;
 	for(int j=0; j<400.; j++){
-
       		ma = ma+(ma*0.01); 
-
      		if(mass > ma-(ma*0.01*10.) && mass < ma+(ma*0.01*10.)) 
 		{
 			if(m1ch*m2ch<0. && passPVconstraintSig && m1pt>slidePt1 && m2pt>slidePt2 && maxEta<1.9){ massforLimit_CatA[j]->Fill(mass); }
@@ -242,7 +238,7 @@ THE LOW MASS TRIGGER TO MEASURE FAKE: ID 18 - 20 [ONLY IN FROM RUN 305405]
     // dimuonMassJPsi->Write();
     /*for(int j=0; j<400.;j++){
 	massforLimit_CatA[j]->Write();
-	}*/
+      }*/
 
     outfile->Close();
 
